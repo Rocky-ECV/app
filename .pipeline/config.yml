@@ -19,9 +19,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.eu10-004.hana.ondemand.com"
-    #cfOrg: "org"
     cfOrg:"Ecloudvalley Digital Technology Co., Lt_tst-hanacloud-rocky-ecv"
-    #cfSpace: "space"
     cfSpace: "R230109"
     cfAppName: "app"
     cfCredentialsId: "deploy-to-cf"
