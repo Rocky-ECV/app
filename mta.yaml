@@ -93,6 +93,7 @@ resources:
     parameters:
       service: xsuaa
       service-plan: application
+      space: R230109
       path: ./xs-security.json
 
   # -------------------- DESTINATION SERVICE -------------------
